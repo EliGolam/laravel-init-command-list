@@ -28,11 +28,14 @@ How to start Laravel Projects
 9. php artisan serve
 10. npm run watch
 
-#### Faker
+#### Optional Elements
+
+##### Faker
 
 1. composer remove --dev fzaninotto/faker
 2. composer require --dev fakerphp/faker
 
+##### Node 18+ bug 
 if it gives error, it may be because node 18 is being used. 
 * npm install cross-env
 * "development": "cross-env NODE_ENV=development NODE_OPTIONS='**--openssl-legacy-provider**' ..."
