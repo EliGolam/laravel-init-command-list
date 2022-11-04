@@ -22,10 +22,11 @@ How to start Laravel Projects
 3. php artisan key:generate
 4. Create necessary databases
 5. Add .env credentials
-6. Migrate and Seed database (php artisan migrate, php artisan db:seed --class=UsersTableSeeder)
-7. npm i
-8. php artisan serve
-9. npm run watch
+6. php artisan config:cache
+7. Migrate and Seed database (php artisan migrate, php artisan db:seed --class=UsersTableSeeder)
+8. npm i
+9. php artisan serve
+10. npm run watch
 
 
 
