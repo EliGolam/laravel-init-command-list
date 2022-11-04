@@ -18,7 +18,7 @@ How to start Laravel Projects
 #### Clone project from remote repo
 
 * composer install
-* copy .env.example as .env file
+* cp .env.example .env (copy .env.example as .env file)
 * php artisan key:generate
 * npm i
 
