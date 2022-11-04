@@ -19,6 +19,7 @@ How to start Laravel Projects
 
 * composer install
 * clone .env file
+* php artisan key:generate
 * npm i
 
 
