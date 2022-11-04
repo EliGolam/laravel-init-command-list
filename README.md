@@ -20,6 +20,9 @@ How to start Laravel Projects
 * composer install
 * cp .env.example .env (copy .env.example as .env file)
 * php artisan key:generate
+* Create necessary databases
+* Add .env credentials
+* Migrate and Seed database (php artisan migrate, php artisan db:seed --class=UsersTableSeeder)
 * npm i
 
 
