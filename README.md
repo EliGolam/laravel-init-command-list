@@ -28,7 +28,10 @@ How to start Laravel Projects
 9. php artisan serve
 10. npm run watch
 
+#### Faker
 
+1. composer remove --dev fzaninotto/faker
+2. composer require --dev fakerphp/faker
 
 if it gives error, it may be because node 18 is being used. 
 * npm install cross-env
