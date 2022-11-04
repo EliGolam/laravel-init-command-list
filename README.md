@@ -17,13 +17,15 @@ How to start Laravel Projects
 
 #### Clone project from remote repo
 
-* composer install
-* cp .env.example .env (copy .env.example as .env file)
-* php artisan key:generate
-* Create necessary databases
-* Add .env credentials
-* Migrate and Seed database (php artisan migrate, php artisan db:seed --class=UsersTableSeeder)
-* npm i
+1. composer install
+2. cp .env.example .env (copy .env.example as .env file)
+3. php artisan key:generate
+4. Create necessary databases
+5. Add .env credentials
+6. Migrate and Seed database (php artisan migrate, php artisan db:seed --class=UsersTableSeeder)
+7. npm i
+8. php artisan serve
+9. npm run watch
 
 
 
